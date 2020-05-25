@@ -1,0 +1,32 @@
+DevRadar - Construir desde o inicio o projeto Omministack em Typescript.
+No backend deve ser implementado uma API RESTful que conectará com banco de dados não relacional MongoDB
+
+Conigurações:
+    Ambiente dev:
+        - Babel para transpilar .ts -> .js 
+        - tsconfig checagem de tipos do Typescript 
+        - Nodemon
+        - Debugger da API dentro do vscode
+        - ESLint e prettier
+
+API:
+    - Conectar usando o client Mongoose na API
+    - Models
+        Dev:
+            - name
+            - github_username
+            - bio
+            - avatar_url
+            - techs
+            - geolocalização
+    - Rotas
+Database:
+    - MongoDB em cloud com Atlas
+        https://www.mongodb.com/cloud/atlas
+    - Configurações de acesso
+        Usar padrão .env
+        - db: week10
+        - user: master
+        - password: 051710master
+Tests:
+    - Configurar Testes
