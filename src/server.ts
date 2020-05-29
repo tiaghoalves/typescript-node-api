@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import cors from "cors";
 import * as devController from "./controllers/dev.controller";
 import * as searchController from "./controllers/search.controller";
 
@@ -21,6 +22,10 @@ mongoose
     console.log(err);
   });
 
+/**
+ * Middlewares
+ */
+app.use(cors());
 app.use(express.json());
 
 /**

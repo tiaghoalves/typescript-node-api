@@ -2,5 +2,6 @@
     "debug.node.autoAttach": "on",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
